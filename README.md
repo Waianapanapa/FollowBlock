@@ -7,4 +7,7 @@
 ## General project information
 
 ### Framework and language versions
-- 
+- Rails Version: 4.2.3
+- Ruby Version: 2.2.2
+
+### Branching model (more info 
