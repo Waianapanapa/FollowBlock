@@ -10,4 +10,7 @@
 - Rails Version: 4.2.3
 - Ruby Version: 2.2.2
 
-### Branching model (more info 
+### Branching model (more info [here](http://nvie.com/posts/a-successful-git-branching-model/))
+
+- Development
+- Stag
