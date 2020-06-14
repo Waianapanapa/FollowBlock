@@ -17,3 +17,7 @@
 - Master (which is production)
 - Hotfixes
 - Temporary feature branches
+
+### Styling guidelines:
+
+Using github’s [ruby guidelines](https://
