@@ -13,4 +13,7 @@
 ### Branching model (more info [here](http://nvie.com/posts/a-successful-git-branching-model/))
 
 - Development
-- Stag
+- Staging
+- Master (which is production)
+- Hotfixes
+- Temporary feature branches
