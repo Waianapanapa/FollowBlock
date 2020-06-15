@@ -20,4 +20,4 @@
 
 ### Styling guidelines:
 
-Using github’s [ruby guidelines](https://
+Using github’s [ruby guidelines](https://github.com/styleguide/ruby). More on the application wiki.
