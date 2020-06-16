@@ -21,3 +21,7 @@
 ### Styling guidelines:
 
 Using github’s [ruby guidelines](https://github.com/styleguide/ruby). More on the application wiki.
+
+## Set up the application
+
+### Install [foreman](https://github.
