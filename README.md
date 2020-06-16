@@ -24,4 +24,7 @@ Using github’s [ruby guidelines](https://github.com/styleguide/ruby). More on 
 
 ## Set up the application
 
-### Install [foreman](https://github.
+### Install [foreman](https://github.com/ddollar/foreman#installation)
+
+If you have...  | Install with...
+-----
