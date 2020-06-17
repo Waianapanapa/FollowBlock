@@ -27,4 +27,5 @@ Using github’s [ruby guidelines](https://github.com/styleguide/ruby). More on 
 ### Install [foreman](https://github.com/ddollar/foreman#installation)
 
 If you have...  | Install with...
------
+------------- | -------------
+Ruby (MRI, JRuby, Windows)  | $ gem install forema
