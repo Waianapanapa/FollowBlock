@@ -31,4 +31,6 @@ If you have...  | Install with...
 Ruby (MRI, JRuby, Windows)  | $ gem install foreman
 Mac OS X  | [foreman.pkg](http://assets.foreman.io/foreman/foreman.pkg)
 
-### Instal
+### Install [mailcatcher](http://mailcatcher.me/) gem
+
+    $ gem install mailc
