@@ -33,4 +33,12 @@ Mac OS X  | [foreman.pkg](http://assets.foreman.io/foreman/foreman.pkg)
 
 ### Install [mailcatcher](http://mailcatcher.me/) gem
 
-    $ gem install mailc
+    $ gem install mailcatcher
+
+### Install gems with bundle
+
+    $ bundle install
+
+### Set up the database
+
+ 
