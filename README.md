@@ -41,4 +41,8 @@ Mac OS X  | [foreman.pkg](http://assets.foreman.io/foreman/foreman.pkg)
 
 ### Set up the database
 
- 
+    $ bin/rake db:setup
+
+### Start the mailcatcher
+
+    $ mailcatcher --http-ip=0.0.0.0
