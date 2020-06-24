@@ -46,3 +46,10 @@ Mac OS X  | [foreman.pkg](http://assets.foreman.io/foreman/foreman.pkg)
 ### Start the mailcatcher
 
     $ mailcatcher --http-ip=0.0.0.0
+
+Go to:
+
+    $ open http://localhost:1080
+
+### Start the server
+
