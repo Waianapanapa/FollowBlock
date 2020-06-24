@@ -53,3 +53,8 @@ Go to:
 
 ### Start the server
 
+    $ foreman start -f Procfile.dev
+
+Go to:
+
+    $ open http://localhost:3000
