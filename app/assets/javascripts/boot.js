@@ -1,2 +1,3 @@
 define("boot", ["jQuery"], function ($) {
-  var 
+  var controller = $("body").data("controller"),
+      action = $("body").data("a
