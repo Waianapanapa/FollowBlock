@@ -1,0 +1,2 @@
+define("jQuery", function() {
+  re

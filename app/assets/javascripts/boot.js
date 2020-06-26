@@ -5,4 +5,6 @@ define("boot", ["jQuery"], function ($) {
   try {
     require("pages." + controller + "." + action);
   } catch (error) {
-  
+    // fail silently when module not defined
+  }
+});
