@@ -1,3 +1,6 @@
 define("modules.message",
 [
-  "services.http"
+  "services.http",
+], function (HttpService) {
+  var Message = function (element) {
+    th
