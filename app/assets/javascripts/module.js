@@ -1,2 +1,3 @@
 define("jQuery", function() {
-  re
+  return jQuery;
+});
