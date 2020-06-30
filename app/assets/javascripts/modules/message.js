@@ -3,4 +3,7 @@ define("modules.message",
   "services.http",
 ], function (HttpService) {
   var Message = function (element) {
-    th
+    this.httpService = new HttpService();
+
+    this.el = element;
+    this.b
