@@ -6,4 +6,5 @@ define("modules.message",
     this.httpService = new HttpService();
 
     this.el = element;
-    this.b
+    this.bidId = this.el.data('bid-id')
+    this.messages = this.el.find("[data-wrapper='messages
