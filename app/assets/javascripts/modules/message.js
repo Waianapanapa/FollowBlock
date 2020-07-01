@@ -7,4 +7,7 @@ define("modules.message",
 
     this.el = element;
     this.bidId = this.el.data('bid-id')
-    this.messages = this.el.find("[data-wrapper='messages
+    this.messages = this.el.find("[data-wrapper='messages']");
+    this.text = this.el.find("textarea[name='text']");
+
+    this.sh
