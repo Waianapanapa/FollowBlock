@@ -10,4 +10,5 @@ define("modules.message",
     this.messages = this.el.find("[data-wrapper='messages']");
     this.text = this.el.find("textarea[name='text']");
 
-    this.sh
+    this.showMessages = this.el.find("[data-action='show-messages']");
+    this.
