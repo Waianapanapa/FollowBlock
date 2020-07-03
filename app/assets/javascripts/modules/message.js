@@ -11,4 +11,6 @@ define("modules.message",
     this.text = this.el.find("textarea[name='text']");
 
     this.showMessages = this.el.find("[data-action='show-messages']");
-    this.
+    this.showMessages.on("click", show.bind(this));
+
+    this.hideMessages = this.e
