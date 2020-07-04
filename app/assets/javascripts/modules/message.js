@@ -13,4 +13,5 @@ define("modules.message",
     this.showMessages = this.el.find("[data-action='show-messages']");
     this.showMessages.on("click", show.bind(this));
 
-    this.hideMessages = this.e
+    this.hideMessages = this.el.find("[data-action='hide-messages']");
+    this.hideMessages.on("click", hide.bind
