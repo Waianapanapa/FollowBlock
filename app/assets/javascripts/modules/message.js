@@ -19,4 +19,5 @@ define("modules.message",
     this.saveMessage = this.el.find("[data-action='save-message']");
     this.saveMessage.on("click", save.bind(this));
 
-    var sou
+    var source = this.el.find("#message-template").html();
+    this.template = H
