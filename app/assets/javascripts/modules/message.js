@@ -20,4 +20,8 @@ define("modules.message",
     this.saveMessage.on("click", save.bind(this));
 
     var source = this.el.find("#message-template").html();
-    this.template = H
+    this.template = Handlebars.compile(source);
+  };
+
+  var show = function (event) {
+    event
