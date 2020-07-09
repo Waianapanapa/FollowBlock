@@ -31,4 +31,7 @@ define("modules.message",
     this.messages.show();
   };
 
-  var hide = function
+  var hide = function (event) {
+    event.preventDefault();
+
+    this.hideMess
