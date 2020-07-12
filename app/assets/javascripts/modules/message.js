@@ -34,4 +34,9 @@ define("modules.message",
   var hide = function (event) {
     event.preventDefault();
 
-    this.hideMess
+    this.hideMessages.hide();
+    this.showMessages.show();
+    this.messages.hide();
+  };
+
+  var save = 
