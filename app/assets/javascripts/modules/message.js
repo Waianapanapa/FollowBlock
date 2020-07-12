@@ -39,4 +39,7 @@ define("modules.message",
     this.messages.hide();
   };
 
-  var save = 
+  var save = function (event) {
+    event.preventDefault();
+
+    var url = '
