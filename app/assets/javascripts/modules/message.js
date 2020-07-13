@@ -42,4 +42,6 @@ define("modules.message",
   var save = function (event) {
     event.preventDefault();
 
-    var url = '
+    var url = '/bids/' + this.bidId + '/messages',
+        payload = {
+          message: {
