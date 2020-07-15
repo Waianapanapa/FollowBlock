@@ -44,4 +44,7 @@ define("modules.message",
 
     var url = '/bids/' + this.bidId + '/messages',
         payload = {
-          message: {
+          message: { text: this.text.val() }
+        };
+
+    this.httpService.post(url, 
