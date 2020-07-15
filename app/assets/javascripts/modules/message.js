@@ -47,4 +47,6 @@ define("modules.message",
           message: { text: this.text.val() }
         };
 
-    this.httpService.post(url, 
+    this.httpService.post(url, payload, function(data) {
+      var message = this.template({
+     
