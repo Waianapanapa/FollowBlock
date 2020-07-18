@@ -49,4 +49,7 @@ define("modules.message",
 
     this.httpService.post(url, payload, function(data) {
       var message = this.template({
-     
+        text: data.text,
+        author: data.author,
+        sentAt: data.sent_at
+      }
