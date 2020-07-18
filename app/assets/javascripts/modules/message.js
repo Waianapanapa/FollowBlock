@@ -52,4 +52,7 @@ define("modules.message",
         text: data.text,
         author: data.author,
         sentAt: data.sent_at
-      }
+      });
+
+      this.messages.prepend(message);
+      this.text.val
