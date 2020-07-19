@@ -55,4 +55,7 @@ define("modules.message",
       });
 
       this.messages.prepend(message);
-      this.text.val
+      this.text.val("");
+    }.bind(this), function(data) {
+      console.log('error', data);
+ 
