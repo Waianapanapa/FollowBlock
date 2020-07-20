@@ -58,4 +58,8 @@ define("modules.message",
       this.text.val("");
     }.bind(this), function(data) {
       console.log('error', data);
- 
+    });
+  };
+
+  return Message;
+});
