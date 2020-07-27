@@ -1,4 +1,8 @@
 define("pages.bids.form", function () {
   var el,
       areaType,
-      f
+      forwardFields,
+      paymentType,
+      ruralFields;
+
+  var init = function (element
