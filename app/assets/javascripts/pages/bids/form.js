@@ -5,4 +5,8 @@ define("pages.bids.form", function () {
       paymentType,
       ruralFields;
 
-  var init = function (element
+  var init = function (element) {
+    el = element;
+
+    forwardFields = el.find(".forward");
+    ruralFie
