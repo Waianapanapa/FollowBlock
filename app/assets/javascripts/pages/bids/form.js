@@ -9,4 +9,6 @@ define("pages.bids.form", function () {
     el = element;
 
     forwardFields = el.find(".forward");
-    ruralFie
+    ruralFields = el.find(".rural");
+
+    areaType = el.find("select[name$='[area_type]']")
