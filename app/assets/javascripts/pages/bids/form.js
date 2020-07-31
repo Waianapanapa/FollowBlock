@@ -11,4 +11,6 @@ define("pages.bids.form", function () {
     forwardFields = el.find(".forward");
     ruralFields = el.find(".rural");
 
-    areaType = el.find("select[name$='[area_type]']")
+    areaType = el.find("select[name$='[area_type]']");
+    areaType.on("change", onChangeAreaType);
+    areaType.trigger("cha
