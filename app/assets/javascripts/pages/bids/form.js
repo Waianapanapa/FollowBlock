@@ -16,4 +16,5 @@ define("pages.bids.form", function () {
     areaType.trigger("change");
 
     paymentType = el.find("select[name$='[payment_type]']");
-    paymentType.o
+    paymentType.on("change", onChangePaymentType);
+    paymentType.trigger("chang
