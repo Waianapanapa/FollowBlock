@@ -21,4 +21,8 @@ define("pages.bids.form", function () {
   };
 
   var onChangeAreaType = function () {
-    var value = $(thi
+    var value = $(this).val();
+
+    if (value === "rural") {
+      showFields(ruralFields);
+    } el
