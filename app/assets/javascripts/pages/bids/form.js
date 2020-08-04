@@ -25,4 +25,9 @@ define("pages.bids.form", function () {
 
     if (value === "rural") {
       showFields(ruralFields);
-    } el
+    } else {
+      hideFields(ruralFields);
+    }
+  };
+
+  var onChangePayme
