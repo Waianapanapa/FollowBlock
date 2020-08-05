@@ -30,4 +30,7 @@ define("pages.bids.form", function () {
     }
   };
 
-  var onChangePayme
+  var onChangePaymentType = function () {
+    var value = $(this).val();
+
+    if 
