@@ -33,4 +33,6 @@ define("pages.bids.form", function () {
   var onChangePaymentType = function () {
     var value = $(this).val();
 
-    if 
+    if (value === "forward") {
+      showFields(forwardFields);
+    } else {
