@@ -36,3 +36,8 @@ define("pages.bids.form", function () {
     if (value === "forward") {
       showFields(forwardFields);
     } else {
+      hideFields(forwardFields);
+    }
+  };
+
+  var showFields = fu
