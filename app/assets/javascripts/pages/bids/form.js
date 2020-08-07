@@ -40,4 +40,6 @@ define("pages.bids.form", function () {
     }
   };
 
-  var showFields = fu
+  var showFields = function(fields) {
+    for (var i = 0; i < fields.length; i++) {
+      $(fields[i]).show();
