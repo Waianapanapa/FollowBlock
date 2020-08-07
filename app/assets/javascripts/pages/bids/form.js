@@ -43,3 +43,8 @@ define("pages.bids.form", function () {
   var showFields = function(fields) {
     for (var i = 0; i < fields.length; i++) {
       $(fields[i]).show();
+    }
+  };
+
+  var hideFields = function(fields) {
+    for (var i = 0; i < fields.length
