@@ -47,4 +47,7 @@ define("pages.bids.form", function () {
   };
 
   var hideFields = function(fields) {
-    for (var i = 0; i < fields.length
+    for (var i = 0; i < fields.length; i++) {
+      $(fields[i]).hide()
+                  .find("input")
+ 
