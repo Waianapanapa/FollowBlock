@@ -50,4 +50,11 @@ define("pages.bids.form", function () {
     for (var i = 0; i < fields.length; i++) {
       $(fields[i]).hide()
                   .find("input")
- 
+                  .val("");
+    }
+  };
+
+  return {
+    init: init
+  };
+})
