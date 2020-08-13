@@ -57,4 +57,4 @@ define("pages.bids.form", function () {
   return {
     init: init
   };
-})
+});
