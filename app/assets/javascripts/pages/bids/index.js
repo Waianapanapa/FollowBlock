@@ -6,4 +6,4 @@ define("pages.bids.index",
   _.each($(".bid"), function(order) {
     new Message($(order));
   });
-})
+});
