@@ -1,3 +1,6 @@
 define("pages.registrations.edit",
 [
-  "jQ
+  "jQuery",
+  "pages.registrations.form",
+], function($, form) {
+  form.init($("
