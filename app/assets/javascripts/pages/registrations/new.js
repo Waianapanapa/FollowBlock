@@ -1,4 +1,7 @@
 define("pages.registrations.new",
 [
   "jQuery",
-  "pages.registratio
+  "pages.registrations.form",
+], function($, form) {
+  form.init($("form.new_user"));
+});
