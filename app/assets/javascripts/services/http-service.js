@@ -4,4 +4,7 @@ define("services.http",
 ], function ($) {
   var HttpService = function() {};
 
-  HttpService.prototype.get = funct
+  HttpService.prototype.get = function (url, successHandler, errorHandler) {
+    $.ajax({
+      url: url,
+   
