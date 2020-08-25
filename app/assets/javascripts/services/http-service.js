@@ -10,4 +10,6 @@ define("services.http",
       method: "GET",
       dataType: "json"
     }).done(function (data) {
-      successHand
+      successHandler(data);
+    }).fail(function (jxr, textStatus, message) {
+      errorHandler(messa
