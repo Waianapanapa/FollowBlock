@@ -16,4 +16,8 @@ define("services.http",
     });
   };
 
-  HttpService.prototype.post = function (url, payload, suc
+  HttpService.prototype.post = function (url, payload, successHandler, errorHandler) {
+    $.ajax({
+      url: url,
+      method: "POST",
+      d
