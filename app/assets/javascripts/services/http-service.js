@@ -12,4 +12,8 @@ define("services.http",
     }).done(function (data) {
       successHandler(data);
     }).fail(function (jxr, textStatus, message) {
-      errorHandler(messa
+      errorHandler(message);
+    });
+  };
+
+  HttpService.prototype.post = function (url, payload, suc
