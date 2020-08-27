@@ -20,4 +20,7 @@ define("services.http",
     $.ajax({
       url: url,
       method: "POST",
-      d
+      data: payload,
+      dataType: "json"
+    }).done(function (data) {
+      succes
