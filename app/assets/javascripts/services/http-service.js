@@ -23,4 +23,6 @@ define("services.http",
       data: payload,
       dataType: "json"
     }).done(function (data) {
-      succes
+      successHandler(data);
+    }).fail(function (jxr, textStatus, message) {
+      errorHandler(me
