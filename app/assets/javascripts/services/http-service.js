@@ -25,4 +25,9 @@ define("services.http",
     }).done(function (data) {
       successHandler(data);
     }).fail(function (jxr, textStatus, message) {
-      errorHandler(me
+      errorHandler(message);
+    });
+  };
+
+  return HttpService;
+});
