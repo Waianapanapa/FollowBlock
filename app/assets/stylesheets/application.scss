@@ -111,3 +111,75 @@ body {
   display: table;
   position: relative;
   width: 100%;
+}
+
+.checkout-step button[disabled] {
+  filter: alpha(opacity=100) !important;
+  opacity: 1 !important;
+}
+
+.checkout-row:before {
+  background-color: #ccc;
+  bottom: 0;
+  content: " ";
+  height: 1px;
+  position: absolute;
+  top: 14px;
+  width: 100%;
+  z-order: 0;
+}
+
+.checkout-step {
+  display: table-cell;
+  position: relative;
+  text-align: center;
+}
+
+.btn-circle {
+  border-radius: 15px;
+  font-size: 12px;
+  height: 30px;
+  line-height: 1.428571429;
+  padding: 6px 0;
+  text-align: center;
+  width: 30px;
+}
+
+.bid + .bid,
+.order + .order {
+  margin-top: 20px;
+}
+
+.message {
+  padding: 10px;
+  background-color: #f8f8f8;
+  border: 1px solid #e7e7e7;
+  border-radius: 4px;
+  margin-left: 0px;
+
+  .author {
+    color: #b9b9b9;
+    display: block;
+    font-size: 0.8em;
+    text-align: center;
+    padding-top: 5px;
+    width: 100%;
+  }
+
+  .sent-at {
+    font-size: 0.8em;
+    color: #b9b9b9;
+    padding-left: 15px;
+    padding-top: 5px;
+    display: block;
+    width: 100%;
+  }
+
+  .text {
+    padding-left: 15px;
+  }
+}
+
+.message + .message {
+  margin-top: 10px;
+}
