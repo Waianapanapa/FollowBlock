@@ -11,3 +11,5 @@ module Admin
     private
 
     def user_not_authorized
+      flash[:alert] = "Você não está autorizado a realizar esta ação."
+      redirect_to(r
