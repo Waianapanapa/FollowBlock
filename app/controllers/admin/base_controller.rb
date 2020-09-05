@@ -4,4 +4,10 @@ module Admin
 
     rescue_from Pundit::NotAuthorizedError, with: :user_not_authorized
 
-    layout "dashb
+    layout "dashboard"
+
+    after_action :verify_authorized
+
+    private
+
+    def user_not_authorized
