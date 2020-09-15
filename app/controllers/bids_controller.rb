@@ -1,4 +1,6 @@
 class BidsController < ApplicationController
   layout "dashboard"
 
-  def avail
+  def available
+    @bids = Bid.most_recent
+               .where.not(us
