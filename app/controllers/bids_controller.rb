@@ -3,4 +3,5 @@ class BidsController < ApplicationController
 
   def available
     @bids = Bid.most_recent
-               .where.not(us
+               .where.not(user: current_user)
+               .where.not(id: Order.where(user: 
