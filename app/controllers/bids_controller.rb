@@ -4,4 +4,5 @@ class BidsController < ApplicationController
   def available
     @bids = Bid.most_recent
                .where.not(user: current_user)
-               .where.not(id: Order.where(user: 
+               .where.not(id: Order.where(user: current_user).pluck(:id))
+               .reject { |bid| bid.created_at + bid.numbe
