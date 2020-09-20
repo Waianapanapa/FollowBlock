@@ -9,4 +9,11 @@ class BidsController < ApplicationController
   end
 
   def index
-    @bids = current_user.bids.mo
+    @bids = current_user.bids.most_recent
+  end
+
+  def new
+    @bid = current_user.bids.build
+  end
+
+  def crea
