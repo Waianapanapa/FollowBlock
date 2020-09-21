@@ -16,4 +16,8 @@ class BidsController < ApplicationController
     @bid = current_user.bids.build
   end
 
-  def crea
+  def create
+    @bid = current_user.bids.build(bid_params)
+
+    if @bid.save
+      redir
