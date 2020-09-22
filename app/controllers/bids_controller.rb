@@ -20,4 +20,12 @@ class BidsController < ApplicationController
     @bid = current_user.bids.build(bid_params)
 
     if @bid.save
-      redir
+      redirect_to bids_path
+    else
+      render :new
+    end
+  end
+
+  private
+
+  def bid_
