@@ -10,4 +10,7 @@ class MessagesController < ApplicationController
 
   private
 
-  def message_param
+  def message_params
+    params.require(:message).permit(:text)
+  end
+end
