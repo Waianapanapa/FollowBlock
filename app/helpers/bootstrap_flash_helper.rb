@@ -1,2 +1,2 @@
 module BootstrapFlashHelper
-  ALERT_TY
+  ALERT_TYPES = [:success, :info, :warning, :danger] unless const_defined?(:ALERT_TYPES)
