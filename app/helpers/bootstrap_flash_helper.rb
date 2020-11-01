@@ -4,4 +4,5 @@ module BootstrapFlashHelper
   def bootstrap_flash(options = {})
     flash_messages = []
 
-    flash.each do
+    flash.each do |type, message|
+      # Skip empty messages, e.g. for devise messag
