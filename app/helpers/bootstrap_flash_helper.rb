@@ -15,4 +15,5 @@ module BootstrapFlashHelper
       next unless ALERT_TYPES.include?(type)
 
       tag_class = options.extract!(:class)[:class]
-      
+      tag_options = {
+        class: "alert fade in alert-#{type} #{tag_class}
