@@ -19,4 +19,4 @@ module BootstrapFlashHelper
         class: "alert fade in alert-#{type} #{tag_class}"
       }.merge(options)
 
-      close_button = content_tag(:butt
+      close_button = content_tag(:button, raw("&times;"), type: "button", class: "close", "data-dismiss" => "alert"
