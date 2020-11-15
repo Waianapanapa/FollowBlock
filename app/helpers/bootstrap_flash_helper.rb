@@ -23,4 +23,8 @@ module BootstrapFlashHelper
 
       Array(message).each do |msg|
         text = content_tag(:div, close_button + msg.html_safe, tag_options)
-        flash_mess
+        flash_messages << text if msg
+      end
+    end
+
+    flash_messages.join("\n").html_
