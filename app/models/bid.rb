@@ -1,4 +1,6 @@
 class Bid < ActiveRecord::Base
   extend Enumerize
 
-  belon
+  belongs_to :user, required: true
+
+  has_many :messages, -> { merge(Mess
