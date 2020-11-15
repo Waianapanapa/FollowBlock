@@ -27,4 +27,6 @@ module BootstrapFlashHelper
       end
     end
 
-    flash_messages.join("\n").html_
+    flash_messages.join("\n").html_safe
+  end
+end
