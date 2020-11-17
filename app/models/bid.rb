@@ -3,4 +3,5 @@ class Bid < ActiveRecord::Base
 
   belongs_to :user, required: true
 
-  has_many :messages, -> { merge(Mess
+  has_many :messages, -> { merge(Message.most_recent) }, dependent: :destroy
+  has_many :orders, depe
