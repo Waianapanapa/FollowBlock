@@ -8,4 +8,5 @@ class Bid < ActiveRecord::Base
 
   enumerize :area_type, in: [:urban, :rural]
   enumerize :payment_type, in: [:cash, :forward], predicates: true
-  enumerize :product, in: [:corn, :
+  enumerize :product, in: [:corn, :soy, :wheat, :sorghum]
+  enumerize :status, in: [:availabl
