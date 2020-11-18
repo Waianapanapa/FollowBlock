@@ -7,4 +7,5 @@ class Bid < ActiveRecord::Base
   has_many :orders, dependent: :destroy
 
   enumerize :area_type, in: [:urban, :rural]
-  enumerize :payment_typ
+  enumerize :payment_type, in: [:cash, :forward], predicates: true
+  enumerize :product, in: [:corn, :
