@@ -9,4 +9,6 @@ class Bid < ActiveRecord::Base
   enumerize :area_type, in: [:urban, :rural]
   enumerize :payment_type, in: [:cash, :forward], predicates: true
   enumerize :product, in: [:corn, :soy, :wheat, :sorghum]
-  enumerize :status, in: [:available, :progress, :purchased, :paid, :released, :delivered], default: :av
+  enumerize :status, in: [:available, :progress, :purchased, :paid, :released, :delivered], default: :available, predicates: true
+
+  validates :user, :product, :quantity, :pr
