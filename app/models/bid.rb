@@ -11,4 +11,5 @@ class Bid < ActiveRecord::Base
   enumerize :product, in: [:corn, :soy, :wheat, :sorghum]
   enumerize :status, in: [:available, :progress, :purchased, :paid, :released, :delivered], default: :available, predicates: true
 
-  validates :user, :product, :quantity, :pr
+  validates :user, :product, :quantity, :price, :city, :state,
+            :area_type, :payment_type, :number_of_days, presence: 
