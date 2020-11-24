@@ -12,4 +12,6 @@ class Bid < ActiveRecord::Base
   enumerize :status, in: [:available, :progress, :purchased, :paid, :released, :delivered], default: :available, predicates: true
 
   validates :user, :product, :quantity, :price, :city, :state,
-            :area_type, :payment_type, :number_of_days, presence: 
+            :area_type, :payment_type, :number_of_days, presence: true
+  validates :payment_term, presence: true, if: :forward?
+  validates :unp
