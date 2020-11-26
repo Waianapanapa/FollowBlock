@@ -14,4 +14,6 @@ class Bid < ActiveRecord::Base
   validates :user, :product, :quantity, :price, :city, :state,
             :area_type, :payment_type, :number_of_days, presence: true
   validates :payment_term, presence: true, if: :forward?
-  validates :unp
+  validates :unpaved_road, presence: true, if: :rural_area?
+
+  validates :number_of_days,
