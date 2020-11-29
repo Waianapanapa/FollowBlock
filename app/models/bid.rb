@@ -16,4 +16,5 @@ class Bid < ActiveRecord::Base
   validates :payment_term, presence: true, if: :forward?
   validates :unpaved_road, presence: true, if: :rural_area?
 
-  validates :number_of_days,
+  validates :number_of_days, numericality: { only_integer: true, greater_than_or_equal_to: 1 }
+  validates :pa
