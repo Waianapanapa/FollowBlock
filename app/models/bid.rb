@@ -18,4 +18,6 @@ class Bid < ActiveRecord::Base
 
   validates :number_of_days, numericality: { only_integer: true, greater_than_or_equal_to: 1 }
   validates :payment_term, numericality: { only_integer: true, greater_than_or_equal_to: 1 }, if: :forward?
-  validates :unpaved_road, numericality: { only_integer: true, greater_t
+  validates :unpaved_road, numericality: { only_integer: true, greater_than_or_equal_to: 0 }, if: :rural_area?
+
+  scope :most_recent, -> { order(create
