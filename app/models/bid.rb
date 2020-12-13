@@ -20,4 +20,9 @@ class Bid < ActiveRecord::Base
   validates :payment_term, numericality: { only_integer: true, greater_than_or_equal_to: 1 }, if: :forward?
   validates :unpaved_road, numericality: { only_integer: true, greater_than_or_equal_to: 0 }, if: :rural_area?
 
-  scope :most_recent, -> { order(create
+  scope :most_recent, -> { order(created_at: :desc) }
+
+  def seller
+    if user.company?
+      user.corporate_name
+    el
