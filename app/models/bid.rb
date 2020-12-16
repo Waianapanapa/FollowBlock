@@ -25,4 +25,10 @@ class Bid < ActiveRecord::Base
   def seller
     if user.company?
       user.corporate_name
-    el
+    else
+      user.full_name
+    end
+  end
+
+  def progress!
+    update_attribute(:sta
