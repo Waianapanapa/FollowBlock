@@ -31,4 +31,6 @@ class Bid < ActiveRecord::Base
   end
 
   def progress!
-    update_attribute(:sta
+    update_attribute(:status, :progress)
+  end
+end
