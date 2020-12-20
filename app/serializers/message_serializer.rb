@@ -1,2 +1,5 @@
 class MessageSerializer < ActiveModel::Serializer
-  include ActionV
+  include ActionView::Helpers::DateHelper
+
+  attributes :id, :author, :text, :sent_at
+
