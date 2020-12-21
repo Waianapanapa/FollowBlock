@@ -3,3 +3,9 @@ class MessageSerializer < ActiveModel::Serializer
 
   attributes :id, :author, :text, :sent_at
 
+  def author
+    object.user_first_name
+  end
+
+  def sent_at
+    ti
