@@ -8,4 +8,6 @@ class MessageSerializer < ActiveModel::Serializer
   end
 
   def sent_at
-    ti
+    time_ago_in_words(object.created_at)
+  end
+end
