@@ -28,3 +28,11 @@
             <%= distance_of_time_in_words_to_now(bid.created_at + bid.number_of_days.days) %>
           <% else %>
             Encerrado
+          <% end %>
+        </td>
+        <td><span class="badge"><%= bid.orders_count %></span></td>
+        <td><%= bid.status_text %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
