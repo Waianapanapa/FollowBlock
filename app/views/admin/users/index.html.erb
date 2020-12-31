@@ -14,4 +14,5 @@
   <tbody>
     <% @users.each do |user| %>
       <tr>
-        <th sc
+        <th scope="row"><%= user.id %></th>
+        <td><%= user.role_text %></
