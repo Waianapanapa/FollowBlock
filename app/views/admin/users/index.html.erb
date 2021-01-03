@@ -18,4 +18,5 @@
         <td><%= user.role_text %></td>
         <td><%= user.personable_type_text %></td>
         <td><%= user.company? ? user.corporate_name : user.full_name %></td>
-   
+        <td><%= user.company? ? user.cnpj : user.cpf %></td>
+        <td><%= user.email %></td>
