@@ -7,4 +7,7 @@
   <%= f.input :area_type, prompt: "Selecione a zona" %>
   <%= f.input :unpaved_road, hint: "KM", wrapper_html: { class: "rural" } %>
   <%= f.input :payment_type, prompt: "Selecione a forma de pagamento" %>
-  <%= f.input :payment_term, hint: "dias", wrapper_html: { class
+  <%= f.input :payment_term, hint: "dias", wrapper_html: { class: "forward" } %>
+  <%= f.input :number_of_days, hint: "dias" %>
+
+  <%= f.button :submit
