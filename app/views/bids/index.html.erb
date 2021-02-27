@@ -2,4 +2,7 @@
   <% @bids.each do |bid| %>
     <div data-bid-id="<%= bid.id %>" class="row bid" style="border: 1px solid #ddd; padding: 20px 10px;">
       <div class="col-md-3">
-        <ul style="list-style-type: none; margin-left: -
+        <ul style="list-style-type: none; margin-left: -40px;">
+          <li>
+            <b>Produto:</b> <%= bid.product_text %>
+        
