@@ -10,4 +10,6 @@
             <b>Preço:</b> <%= number_to_currency(bid.price, unit: "R$/KG") %>
           </li>
           <li>
-            <b>Quantidade:</b> 
+            <b>Quantidade:</b> <%= number_with_precision(bid.quantity, precision: 2) %> KG
+          </li>
+   
