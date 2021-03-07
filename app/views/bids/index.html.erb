@@ -22,4 +22,6 @@
                 <b>Publicado em:</b> <%= I18n.l(bid.created_at.to_date) %>
               </li>
               <li>
-                <b>Tempo restante:</
+                <b>Tempo restante:</b>
+                <% if bid.created_at + bid.number_of_days.days > Time.now %>
+                
