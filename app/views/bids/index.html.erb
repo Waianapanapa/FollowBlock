@@ -24,4 +24,4 @@
               <li>
                 <b>Tempo restante:</b>
                 <% if bid.created_at + bid.number_of_days.days > Time.now %>
-                
+                  <%= distance_of_time_in_words_to_now(bid.created_at + bid.number_of_days.da
