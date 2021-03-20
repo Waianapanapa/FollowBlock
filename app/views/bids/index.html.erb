@@ -39,4 +39,5 @@
               <a class="btn btn-sm btn-block btn-success" href="#" role="button">Vender Agora</a>
             <% end %>
 
-        
+            <% if bid.available? || bid.progress? %>
+              <a class="btn btn-sm 
