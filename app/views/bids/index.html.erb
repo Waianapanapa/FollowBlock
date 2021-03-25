@@ -50,4 +50,5 @@
               <div class="checkout-row">
                 <% Bid.status.values.each_with_index do |status, index| %>
                   <div class="checkout-step">
-                    <% if bid.public_
+                    <% if bid.public_send("#{status}?") %>
+                      <span class="btn btn-circle btn-
