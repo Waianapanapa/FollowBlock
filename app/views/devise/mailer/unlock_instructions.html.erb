@@ -1,2 +1,6 @@
 <p>
-  <%= t(".greeting", recipient: @resource
+  <%= t(".greeting", recipient: @resource.email, default: "Hello #{@resource.email}!") %>
+</p>
+
+<p>
+  <%= t(".message", d
