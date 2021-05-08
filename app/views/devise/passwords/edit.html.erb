@@ -7,3 +7,17 @@
   <div class="panel-body">
     <%= simple_form_for(resource, as: resource_name, url: password_path(resource_name),
                                                      html: {
+                                                       method: :put,
+                                                       role: "form"
+                                                     }) do |f| %>
+
+      <%= f.input :reset_password_token, as: :hidden %>
+      <%= f.input :password, label: t(".new_password", default: "New password") %>
+      <%= f.input :password_confirmation, label: t(".confirm_new_password", default: "Confirm new password") %>
+
+      <%= f.submit t(".change_my_password", default: "Change my password"), class: "btn btn-primary" %>
+    <% end %>
+  </div>
+</div>
+
+<%= render "devise/shared/links" %>
