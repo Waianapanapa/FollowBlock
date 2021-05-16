@@ -6,4 +6,6 @@
   <div class="panel-body">
     <%= simple_form_for(resource, as: resource_name, url: password_path(resource_name),
                                                      html: {
-                                                       me
+                                                       method: :post,
+                                                       role: "form"
+   
