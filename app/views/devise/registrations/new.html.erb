@@ -13,4 +13,7 @@
       <%= f.input :cnpj, required: true, wrapper_html: { class: "company" } %>
       <%= f.input :phone %>
       <%= f.input :email, required: true %>
-      <%= f.input :password, required: true %
+      <%= f.input :password, required: true %>
+      <%= f.input :password_confirmation, required: true %>
+
+      <%= f.button :submit, t(
