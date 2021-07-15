@@ -10,4 +10,6 @@
         </button>
         <%= link_to "Rodo Safra", root_path, class: "navbar-brand" %>
       </div>
-      <div id="navbar" class=
+      <div id="navbar" class="navbar-collapse collapse">
+        <% if !user_signed_in? %>
+          <ul cla
