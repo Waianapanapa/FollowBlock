@@ -19,4 +19,5 @@
           </ul>
         <% end %>
         <ul class="nav navbar-nav navbar-right">
-         
+          <% if user_signed_in? %>
+            <li><%= link_to current_user.email, e
