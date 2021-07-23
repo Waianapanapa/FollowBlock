@@ -23,4 +23,5 @@
             <li><%= link_to current_user.email, edit_user_registration_path %></li>
             <li><%= link_to t("layout.sign_out"), destroy_user_session_path, method: :delete %></li>
           <% else %>
-            <li><%= link_to t("layout.sign_in"), new_use
+            <li><%= link_to t("layout.sign_in"), new_user_session_path %></li>
+            <li><%= link_to t("layout.
