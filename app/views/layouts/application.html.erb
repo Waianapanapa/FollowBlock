@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trading</title>
+  <%= stylesheet_link_tag "application", media: "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body data-controller="<%= controller_name %>" data-action="<%= action_name %>">
+  <%= render partial: "layouts/header" %>
+
+  <div class="container" style="padding-top: 25px;">
+    <%= render partial: "layouts/flashes" %>
+    <%= yield %>
