@@ -6,4 +6,5 @@
         <td><span class="text"><%= message.text %></span></td>
       </tr>
       <tr>
-        <td><span class="author"><%= message.user_first_name %></
+        <td><span class="author"><%= message.user_first_name %></span></td>
+        <td><span class="sent-at">Enviado <%= time_ago_in_words(message.created
