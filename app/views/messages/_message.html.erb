@@ -7,4 +7,9 @@
       </tr>
       <tr>
         <td><span class="author"><%= message.user_first_name %></span></td>
-        <td><span class="sent-at">Enviado <%= time_ago_in_words(message.created
+        <td><span class="sent-at">Enviado <%= time_ago_in_words(message.created_at) %></span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
