@@ -5,4 +5,6 @@
         <b>Produto:</b> <%= order.bid_product_text %>
       </li>
       <li>
-        <b>Preço:</b> <%= numbe
+        <b>Preço:</b> <%= number_to_currency(order.bid_price, unit: "R$/KG") %>
+      </li>
+      <li>
