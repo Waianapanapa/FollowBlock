@@ -20,4 +20,5 @@
             <b>Publicado em:</b> <%= I18n.l(order.bid_created_at.to_date) %>
           </li>
           <li>
-            <b
+            <b>Tempo restante:</b>
+            <% if order.bid_created_at + order.bid_nu
