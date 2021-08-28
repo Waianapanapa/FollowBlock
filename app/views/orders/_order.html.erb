@@ -38,4 +38,5 @@
           <a class="btn btn-sm btn-block btn-success" href="#" role="button">Realizar pagamento</a>
         <% end %>
 
-        <% if ord
+        <% if order.delivered? %>
+          <a class="btn btn-sm btn-block btn-info" href="#" 
