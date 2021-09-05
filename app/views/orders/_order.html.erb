@@ -47,4 +47,6 @@
       <div class="col-md-12">
         <div class="checkout" style="margin-top: 20px; margin-bottom: 20px;">
           <div class="checkout-row">
-            <% Order.status.values.
+            <% Order.status.values.each_with_index do |status, index| %>
+              <div class="checkout-step">
+       
