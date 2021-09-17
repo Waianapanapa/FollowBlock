@@ -72,4 +72,8 @@
           <textarea class="form-control" name="text" rows="3" placeholder="Digite sua mensagem"></textarea>
         </div>
 
-        <%= handlebars "message-templa
+        <%= handlebars "message-template" do %>
+          <%= render "messages/template" %>
+        <% end %>
+
+  
