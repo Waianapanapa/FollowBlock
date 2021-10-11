@@ -13,4 +13,6 @@
           <b>Produto:</b> <%= @bid.product_text %>
         </li>
         <li>
-          <b>Data
+          <b>Data da oferta:</b> <%= I18n.l(@bid.created_at.to_date) %>
+        </li>
+      
