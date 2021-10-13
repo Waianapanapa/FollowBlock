@@ -17,4 +17,5 @@
         </li>
         <li>
           <b>Tempo para término da oferta:</b>
-          <% i
+          <% if @bid.created_at + @bid.number_of_days.days > Time.now %>
+            <%= di
