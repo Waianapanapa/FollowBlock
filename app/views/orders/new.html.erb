@@ -38,4 +38,6 @@
         <li>
           <b>Preço para retirar:</b> <%= number_to_currency(@bid.price, unit: "R$/KG") %>
         </li>
-      
+      </ul>
+
+      <% if @bid.created_at + @bid.number_of_days.days > Time.no
