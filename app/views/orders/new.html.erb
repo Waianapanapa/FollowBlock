@@ -40,4 +40,5 @@
         </li>
       </ul>
 
-      <% if @bid.created_at + @bid.number_of_days.days > Time.no
+      <% if @bid.created_at + @bid.number_of_days.days > Time.now %>
+        <%= f.button :submit, "Comprar", class: "btn-primary" %>
