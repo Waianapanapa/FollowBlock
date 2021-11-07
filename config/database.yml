@@ -1,0 +1,20 @@
+
+default: &default
+  adapter: postgresql
+  encoding: utf8
+  username: trading
+  password: trading
+  host: localhost
+  port: 5432
+  pool: 5
+
+development:
+  <<: *default
+  database: trading_development
+
+test:
+  <<: *default
+  database: trading_test
+
+production:
+  url: <%= ENV["DATABASE_URL"] %>
