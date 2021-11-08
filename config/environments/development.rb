@@ -1,2 +1,4 @@
 Rails.application.configure do
-  # Settings spec
+  # Settings specified here will take precedence over those in config/application.rb.
+
+  # In the development e
