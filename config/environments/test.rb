@@ -31,4 +31,7 @@ Rails.application.configure do
   # ActionMailer::Base.deliveries array.
   config.action_mailer.delivery_method = :test
 
-  # Randomize the
+  # Randomize the order test cases are executed.
+  config.active_support.test_order = :random
+
+  # Print depre
