@@ -34,4 +34,7 @@ Rails.application.configure do
   # Randomize the order test cases are executed.
   config.active_support.test_order = :random
 
-  # Print depre
+  # Print deprecation notices to the stderr.
+  config.active_support.deprecation = :stderr
+
+  
