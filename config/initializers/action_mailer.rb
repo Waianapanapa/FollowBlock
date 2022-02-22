@@ -1,2 +1,4 @@
 if Rails.env.development?
-  # Define
+  # Define settings for mailcatcher
+  ActionMailer::Base.tap do |action_mailer|
+    
