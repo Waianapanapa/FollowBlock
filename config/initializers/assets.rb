@@ -1,1 +1,3 @@
-# Be sure to r
+# Be sure to restart your server when you modify this file.
+
+# Version of your assets, chang
