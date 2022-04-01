@@ -122,3 +122,46 @@ SimpleForm.setup do |config|
   config.browser_validations = false
 
   # Collection of methods to detect if a file type was given.
+  # config.file_methods = [ :mounted_as, :file?, :public_filename ]
+
+  # Custom mappings for input types. This should be a hash containing a regexp
+  # to match as key, and the input type that will be used when the field name
+  # matches the regexp as value.
+  # config.input_mappings = { /count/ => :integer }
+
+  # Custom wrappers for input types. This should be a hash containing an input
+  # type as key and the wrapper that will be used for all inputs with specified type.
+  # config.wrapper_mappings = { string: :prepend }
+
+  # Namespaces where SimpleForm should look for custom input classes that
+  # override default inputs.
+  # config.custom_inputs_namespaces << "CustomInputs"
+
+  # Default priority for time_zone inputs.
+  # config.time_zone_priority = nil
+
+  # Default priority for country inputs.
+  # config.country_priority = nil
+
+  # When false, do not use translations for labels.
+  # config.translate_labels = true
+
+  # Automatically discover new inputs in Rails' autoload path.
+  # config.inputs_discovery = true
+
+  # Cache SimpleForm inputs discovery
+  # config.cache_discovery = !Rails.env.development?
+
+  # Default class for inputs
+  # config.input_class = nil
+
+  # Define the default class of the input wrapper of the boolean input.
+  config.boolean_label_class = "checkbox"
+
+  # Defines if the default input wrapper class should be included in radio
+  # collection wrappers.
+  # config.include_default_input_wrapper_class = true
+
+  # Defines which i18n scope will be used in Simple Form.
+  # config.i18n_scope = "simple_form"
+end
