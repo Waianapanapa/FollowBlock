@@ -1,0 +1,37 @@
+
+pt-BR:
+  devise:
+    confirmations:
+      new:
+        resend_confirmation_instructions: Reenviar instruções de confirmação
+      confirmed: A sua conta foi confirmada com sucesso.
+      send_instructions: Dentro de minutos, você receberá um email com as instruções de confirmação da sua conta.
+      send_paranoid_instructions: Se o seu email existir em nosso banco de dados, você receberá um email com instruções sobre como confirmar sua conta em alguns minutos.
+    failure:
+      already_authenticated: Você já está autenticado.
+      inactive: A sua conta ainda não foi ativada.
+      invalid: Email ou senha inválidos.
+      last_attempt: Você tem mais uma única tentativa antes de sua conta ser bloqueada.
+      locked: A sua conta está bloqueada.
+      not_found_in_database: Email ou senha inválidos.
+      timeout: A sua sessão expirou, por favor, faça login novamente para continuar.
+      unauthenticated: Para continuar, faça login ou registre-se.
+      unconfirmed: Antes de continuar, confirme a sua conta.
+    mailer:
+      confirmation_instructions:
+        action: Confirmar minha conta
+        greeting: Bem-vindo %{recipient}!
+        instruction: ! 'Você pode confirmar sua conta através do link abaixo:'
+        subject: Instruções de confirmação
+      reset_password_instructions:
+        action: Redefinir minha senha
+        greeting: Olá %{recipient}!
+        instruction: Alguém fez o pedido para redefinir sua senha, e você pode fazer isso clicando no link abaixo.
+        instruction_2: Se você não fez este pedido, por favor ignore este e-mail.
+        instruction_3: Sua senha não será alterada até que você acesse o link abaixo e crie uma nova.
+        subject: Instruções para redefinição da senha
+      unlock_instructions:
+        action: Desbloquear minha conta
+        greeting: Olá %{recipient}!
+        instruction: ! 'Clique no link abaixo para desbloquear sua conta:'
+        message: Sua conta foi bloqueada devido ao excessivo número de tentativas de acesso inválidas.
