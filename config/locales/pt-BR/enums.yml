@@ -1,3 +1,7 @@
 pt-BR:
   enumerize:
- 
+    bid:
+      area_type:
+        rural: "Rural"
+        urban: "Urbana"
+      p
