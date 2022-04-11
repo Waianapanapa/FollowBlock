@@ -4,4 +4,8 @@ pt-BR:
       area_type:
         rural: "Rural"
         urban: "Urbana"
-      p
+      payment_type:
+        cash: "A vista"
+        forward: "A prazo"
+      product:
+        corn: "M
