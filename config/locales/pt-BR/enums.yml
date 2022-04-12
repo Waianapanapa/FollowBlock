@@ -14,4 +14,6 @@ pt-BR:
         wheat: "Trigo"
       status:
         available: "Disponível"
-        released: 
+        released: "Faturado"
+        delivered: "Entregue"
+        progress: "Oferta(
