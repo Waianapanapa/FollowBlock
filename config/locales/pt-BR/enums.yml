@@ -8,4 +8,8 @@ pt-BR:
         cash: "A vista"
         forward: "A prazo"
       product:
-        corn: "M
+        corn: "Milho"
+        sorghum: "Sorgo"
+        soy: "Soja"
+        wheat: "Trigo"
+     
