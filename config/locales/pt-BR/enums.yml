@@ -12,4 +12,6 @@ pt-BR:
         sorghum: "Sorgo"
         soy: "Soja"
         wheat: "Trigo"
-     
+      status:
+        available: "Disponível"
+        released: 
