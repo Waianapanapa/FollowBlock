@@ -16,4 +16,6 @@ pt-BR:
         available: "Disponível"
         released: "Faturado"
         delivered: "Entregue"
-        progress: "Oferta(
+        progress: "Oferta(s) realizada"
+        paid: "Pagamento realizado"
+        purchased: "
