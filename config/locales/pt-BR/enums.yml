@@ -18,4 +18,7 @@ pt-BR:
         delivered: "Entregue"
         progress: "Oferta(s) realizada"
         paid: "Pagamento realizado"
-        purchased: "
+        purchased: "Compra realizada"
+    order:
+      status:
+        delivered: "Entregue"
