@@ -22,3 +22,6 @@ pt-BR:
     order:
       status:
         delivered: "Entregue"
+        open: "Feito oferta"
+        paid: "Pagamento realizado"
+        purcha
