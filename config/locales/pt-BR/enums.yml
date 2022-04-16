@@ -26,4 +26,7 @@ pt-BR:
         paid: "Pagamento realizado"
         purchased: "Compra realizada"
         purchased: "Compra realizada"
-        released: "Fatu
+        released: "Faturado"
+    user:
+      personable_type:
+        company: "Jurídi
