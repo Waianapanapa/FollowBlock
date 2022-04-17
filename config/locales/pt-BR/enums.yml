@@ -29,4 +29,7 @@ pt-BR:
         released: "Faturado"
     user:
       personable_type:
-        company: "Jurídi
+        company: "Jurídica"
+        individual: "Física"
+      role:
+        admin: "Administ
