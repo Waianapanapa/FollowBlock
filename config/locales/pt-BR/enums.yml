@@ -32,4 +32,5 @@ pt-BR:
         company: "Jurídica"
         individual: "Física"
       role:
-        admin: "Administ
+        admin: "Administrador"
+        regular: "Usuário"
