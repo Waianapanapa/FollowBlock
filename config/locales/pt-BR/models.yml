@@ -5,4 +5,6 @@ pt-BR:
         one: "Oferta"
         other: "Ofertas"
       order:
-      
+        one: "Inteção de Compra"
+        other: "Intenções de Compra"
+      use
