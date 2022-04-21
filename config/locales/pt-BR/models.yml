@@ -12,3 +12,7 @@ pt-BR:
         other: "Usuários"
     attributes:
       bid:
+        area_type: "Zona"
+        city: "Cidade"
+        number_of_days: "Oferta ativa por"
+   
