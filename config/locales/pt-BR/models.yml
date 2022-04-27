@@ -19,4 +19,7 @@ pt-BR:
         payment_type: "Forma de pagamento"
         price: "Preço"
         product: "Produto"
-        quanti
+        quantity: "Quantidade"
+        state: "Estado"
+        status: "Status"
+    
