@@ -22,4 +22,7 @@ pt-BR:
         quantity: "Quantidade"
         state: "Estado"
         status: "Status"
-    
+        unpaved_road: "Estrada sem pavimentação"
+        user: "Usuário"
+      order:
+      
