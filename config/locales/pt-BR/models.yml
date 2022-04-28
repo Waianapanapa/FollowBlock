@@ -38,4 +38,5 @@ pt-BR:
         password_confirmation: "Confirme sua senha"
         personable_type: "Tipo de pessoa"
         phone: "Telefone"
-       
+        profile: "Perfil"
+        remember_me: Lembre-se de mim
