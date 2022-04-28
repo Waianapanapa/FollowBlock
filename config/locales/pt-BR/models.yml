@@ -31,4 +31,6 @@ pt-BR:
         corporate_name: "Razão Social"
         cpf: "CPF"
         current_password: "Senha atual"
-        email
+        email: "E-mail"
+        first_name: "Nome"
+        last_name: "Sobre
