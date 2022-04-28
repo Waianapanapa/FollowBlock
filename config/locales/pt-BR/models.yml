@@ -33,4 +33,6 @@ pt-BR:
         current_password: "Senha atual"
         email: "E-mail"
         first_name: "Nome"
-        last_name: "Sobre
+        last_name: "Sobrenome"
+        password: "Senha"
+        password_confirmation: "Conf
