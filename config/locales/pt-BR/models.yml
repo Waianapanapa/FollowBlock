@@ -29,4 +29,6 @@ pt-BR:
       user:
         cnpj: "CNPJ"
         corporate_name: "Razão Social"
-   
+        cpf: "CPF"
+        current_password: "Senha atual"
+        email
