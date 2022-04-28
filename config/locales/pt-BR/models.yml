@@ -35,4 +35,7 @@ pt-BR:
         first_name: "Nome"
         last_name: "Sobrenome"
         password: "Senha"
-        password_confirmation: "Conf
+        password_confirmation: "Confirme sua senha"
+        personable_type: "Tipo de pessoa"
+        phone: "Telefone"
+       
