@@ -25,4 +25,8 @@ pt-BR:
         unpaved_road: "Estrada sem pavimentação"
         user: "Usuário"
       order:
-      
+        status: "Status"
+      user:
+        cnpj: "CNPJ"
+        corporate_name: "Razão Social"
+   
