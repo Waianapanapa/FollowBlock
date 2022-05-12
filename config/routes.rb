@@ -3,4 +3,7 @@ Rails.application.routes.draw do
 
   get "dashboard", to: "dashboards#show"
 
-  resources :b
+  resources :bids, only: [:index, :new, :create] do
+    get :available, on: :collection
+
+    resources 
