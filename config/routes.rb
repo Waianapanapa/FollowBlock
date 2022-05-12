@@ -10,4 +10,7 @@ Rails.application.routes.draw do
     resources :orders, only: [:new, :create]
   end
 
-  resources :o
+  resources :orders, only: [:index]
+
+  namespace :admin do
+    resources :bids, only: [:index]
