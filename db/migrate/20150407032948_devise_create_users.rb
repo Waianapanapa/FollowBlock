@@ -1,0 +1,1 @@
+class DeviseCreateUsers < ActiveRecord::Migratio
