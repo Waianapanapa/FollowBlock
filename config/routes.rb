@@ -6,4 +6,8 @@ Rails.application.routes.draw do
   resources :bids, only: [:index, :new, :create] do
     get :available, on: :collection
 
-    resources 
+    resources :messages, only: [:create]
+    resources :orders, only: [:new, :create]
+  end
+
+  resources :o
