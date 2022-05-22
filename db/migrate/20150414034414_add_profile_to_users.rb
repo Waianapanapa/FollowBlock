@@ -1,0 +1,1 @@
+class AddProfileToUsers < ActiveReco
