@@ -8,3 +8,10 @@ class CreateBids < ActiveRecord::Migration
       t.decimal :price, precision: 12, scale: 2, null: false
       t.string :city, null: false
       t.string :state, null: false
+      t.string :payment_type, null: false
+      t.integer :number_of_days, null: false
+
+      t.timestamps null: false
+    end
+  end
+end
