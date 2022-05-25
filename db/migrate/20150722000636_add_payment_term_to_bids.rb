@@ -1,3 +1,5 @@
 class AddPaymentTermToBids < ActiveRecord::Migration
   def change
-    add_column
+    add_column :bids, :payment_term, :integer
+  end
+end
