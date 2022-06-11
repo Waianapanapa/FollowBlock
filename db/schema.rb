@@ -11,4 +11,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schem
+ActiveRecord::Schema.define(version: 20150827021833) do
+
+  # These are extensions that must be en
