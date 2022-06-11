@@ -13,4 +13,5 @@
 
 ActiveRecord::Schema.define(version: 20150827021833) do
 
-  # These are extensions that must be en
+  # These are extensions that must be enabled in order to support this database
+  enable_extension
