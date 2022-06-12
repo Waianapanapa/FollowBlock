@@ -19,4 +19,5 @@ ActiveRecord::Schema.define(version: 20150827021833) do
   create_table "bids", force: :cascade do |t|
     t.integer  "user_id",                                                       null: false
     t.string   "product",                                                       null: false
-    t
+    t.decimal  "quantity",       precision: 13, scale: 3,                       null: false
+   
