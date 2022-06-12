@@ -17,4 +17,5 @@ ActiveRecord::Schema.define(version: 20150827021833) do
   enable_extension "plpgsql"
 
   create_table "bids", force: :cascade do |t|
-    t.integer  "user_id",        
+    t.integer  "user_id",                                                       null: false
+    t.string   
