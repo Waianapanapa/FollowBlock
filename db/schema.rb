@@ -22,4 +22,5 @@ ActiveRecord::Schema.define(version: 20150827021833) do
     t.decimal  "quantity",       precision: 13, scale: 3,                       null: false
     t.decimal  "price",          precision: 12, scale: 2,                       null: false
     t.string   "city",                                                          null: false
-    t.string   "state",                            
+    t.string   "state",                                                         null: false
+    t.string   "payment_type", 
