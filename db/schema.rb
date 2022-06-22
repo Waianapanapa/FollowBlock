@@ -26,4 +26,5 @@ ActiveRecord::Schema.define(version: 20150827021833) do
     t.string   "payment_type",                                                  null: false
     t.integer  "number_of_days",                                                null: false
     t.datetime "created_at",                                                    null: false
-    t.datetime "updated_at",                 
+    t.datetime "updated_at",                                                    null: false
+    t.integer  "payment_term"
