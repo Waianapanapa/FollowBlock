@@ -30,4 +30,8 @@ ActiveRecord::Schema.define(version: 20150827021833) do
     t.integer  "payment_term"
     t.string   "area_type"
     t.integer  "unpaved_road"
-    t.string   "status",                                  default: "av
+    t.string   "status",                                  default: "available", null: false
+    t.integer  "orders_count"
+  end
+
+  add_ind
