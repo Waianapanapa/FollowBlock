@@ -34,4 +34,6 @@ ActiveRecord::Schema.define(version: 20150827021833) do
     t.integer  "orders_count"
   end
 
-  add_ind
+  add_index "bids", ["user_id"], name: "index_bids_on_user_id", using: :btree
+
+  
