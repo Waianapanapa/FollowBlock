@@ -36,4 +36,5 @@ ActiveRecord::Schema.define(version: 20150827021833) do
 
   add_index "bids", ["user_id"], name: "index_bids_on_user_id", using: :btree
 
-  
+  create_table "messages", force: :cascade do |t|
+    t.intege
