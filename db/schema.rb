@@ -39,4 +39,6 @@ ActiveRecord::Schema.define(version: 20150827021833) do
   create_table "messages", force: :cascade do |t|
     t.integer  "user_id",    null: false
     t.integer  "bid_id",     null: false
-    t.s
+    t.string   "text",       null: false
+    t.datetime "created_at", null: false
+ 
