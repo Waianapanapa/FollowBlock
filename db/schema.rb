@@ -41,4 +41,7 @@ ActiveRecord::Schema.define(version: 20150827021833) do
     t.integer  "bid_id",     null: false
     t.string   "text",       null: false
     t.datetime "created_at", null: false
- 
+    t.datetime "updated_at", null: false
+  end
+
+  add_index "messages", ["bid_id"],
