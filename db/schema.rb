@@ -44,4 +44,5 @@ ActiveRecord::Schema.define(version: 20150827021833) do
     t.datetime "updated_at", null: false
   end
 
-  add_index "messages", ["bid_id"],
+  add_index "messages", ["bid_id"], name: "index_messages_on_bid_id", using: :btree
+  add_index "messages",
