@@ -45,4 +45,6 @@ ActiveRecord::Schema.define(version: 20150827021833) do
   end
 
   add_index "messages", ["bid_id"], name: "index_messages_on_bid_id", using: :btree
-  add_index "messages",
+  add_index "messages", ["user_id"], name: "index_messages_on_user_id", using: :btree
+
+  create_table 
