@@ -51,4 +51,8 @@ ActiveRecord::Schema.define(version: 20150827021833) do
     t.integer  "user_id",    null: false
     t.integer  "bid_id",     null: false
     t.string   "status",     null: false
-    t.datetime "created_at
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  a
