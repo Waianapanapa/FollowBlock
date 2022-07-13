@@ -55,4 +55,4 @@ ActiveRecord::Schema.define(version: 20150827021833) do
     t.datetime "updated_at", null: false
   end
 
-  a
+  add_index "orders", ["bid_id"], name: "index_orders_on_bid_i
