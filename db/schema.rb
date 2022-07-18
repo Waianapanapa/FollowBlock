@@ -55,4 +55,5 @@ ActiveRecord::Schema.define(version: 20150827021833) do
     t.datetime "updated_at", null: false
   end
 
-  add_index "orders", ["bid_id"], name: "index_orders_on_bid_i
+  add_index "orders", ["bid_id"], name: "index_orders_on_bid_id", using: :btree
+  add_index "orders", ["user_id"], name: "index_orders_on_user_
