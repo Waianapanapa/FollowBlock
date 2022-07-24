@@ -56,4 +56,7 @@ ActiveRecord::Schema.define(version: 20150827021833) do
   end
 
   add_index "orders", ["bid_id"], name: "index_orders_on_bid_id", using: :btree
-  add_index "orders", ["user_id"], name: "index_orders_on_user_
+  add_index "orders", ["user_id"], name: "index_orders_on_user_id", using: :btree
+
+  create_table "users", force: :cascade do |t|
+    t.string 
