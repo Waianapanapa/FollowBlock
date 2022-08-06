@@ -71,4 +71,5 @@ ActiveRecord::Schema.define(version: 20150827021833) do
     t.inet     "last_sign_in_ip"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.jsonb    "p
+    t.jsonb    "profile",                default: {},        null: false
+    t.strin
