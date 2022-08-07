@@ -72,4 +72,7 @@ ActiveRecord::Schema.define(version: 20150827021833) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.jsonb    "profile",                default: {},        null: false
-    t.strin
+    t.string   "role",                   default: "regular", null: false
+  end
+
+  add_index "us
