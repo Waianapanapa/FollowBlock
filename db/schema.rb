@@ -75,4 +75,4 @@ ActiveRecord::Schema.define(version: 20150827021833) do
     t.string   "role",                   default: "regular", null: false
   end
 
-  add_index "us
+  add_index "users", ["email"], name: "index_users_on_email", unique: true, 
