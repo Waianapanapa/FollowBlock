@@ -79,4 +79,6 @@ ActiveRecord::Schema.define(version: 20150827021833) do
   add_index "users", ["profile"], name: "index_users_on_profile", using: :gin
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
 
-  add_foreign_key "bids",
+  add_foreign_key "bids", "users"
+  add_foreign_key "messages", "bids"
+  add_foreign_key "messag
