@@ -83,4 +83,5 @@ ActiveRecord::Schema.define(version: 20150827021833) do
   add_foreign_key "messages", "bids"
   add_foreign_key "messages", "users"
   add_foreign_key "orders", "bids"
-  add_foreign_key "orders"
+  add_foreign_key "orders", "users"
+end
