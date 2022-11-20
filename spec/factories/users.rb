@@ -6,4 +6,6 @@ FactoryGirl.define do
     phone { "1122223333" }
 
     trait :company do
+      cnpj { "17.531.173/0001-39" }
+      corporate_name { "Acme Inc." }
      
