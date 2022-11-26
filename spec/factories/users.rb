@@ -8,4 +8,8 @@ FactoryGirl.define do
     trait :company do
       cnpj { "17.531.173/0001-39" }
       corporate_name { "Acme Inc." }
-     
+      personable_type { :company }
+    end
+
+    trait :individual do
+      cpf {
