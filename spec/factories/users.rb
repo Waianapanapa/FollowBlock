@@ -15,4 +15,7 @@ FactoryGirl.define do
       cpf { "934.616.118-32" }
       first_name { "John" }
       last_name { "Doe" }
-    
+      personable_type { :individual }
+    end
+  end
+end
