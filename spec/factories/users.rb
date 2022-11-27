@@ -12,4 +12,7 @@ FactoryGirl.define do
     end
 
     trait :individual do
-      cpf {
+      cpf { "934.616.118-32" }
+      first_name { "John" }
+      last_name { "Doe" }
+    
