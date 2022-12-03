@@ -7,4 +7,8 @@ RSpec.feature "User sign in" do
 
   context "with valid credentials" do
     scenario "redirects to the home page" do
-   
+      visit root_path
+
+      click_link "Login"
+
+      fill_in "E-mai
