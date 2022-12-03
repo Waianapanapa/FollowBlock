@@ -11,4 +11,5 @@ RSpec.feature "User sign in" do
 
       click_link "Login"
 
-      fill_in "E-mai
+      fill_in "E-mail", with: "john.doe@example.com"
+      fill_in "Senha", w
