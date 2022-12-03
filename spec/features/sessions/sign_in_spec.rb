@@ -5,4 +5,6 @@ RSpec.feature "User sign in" do
     create(:user, :individual, email: "john.doe@example.com", password: "password")
   end
 
-  context "with val
+  context "with valid credentials" do
+    scenario "redirects to the home page" do
+   
