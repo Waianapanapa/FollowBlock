@@ -12,4 +12,8 @@ RSpec.feature "User sign in" do
       click_link "Login"
 
       fill_in "E-mail", with: "john.doe@example.com"
-      fill_in "Senha", w
+      fill_in "Senha", with: "password"
+
+      click_button "Login"
+
+      expect(current_path).t
