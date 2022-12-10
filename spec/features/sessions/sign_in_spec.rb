@@ -16,4 +16,5 @@ RSpec.feature "User sign in" do
 
       click_button "Login"
 
-      expect(current_path).t
+      expect(current_path).to eq dashboard_path
+      expect(page).to have_notice "Login efetuado com 
