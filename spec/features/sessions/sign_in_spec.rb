@@ -28,4 +28,8 @@ RSpec.feature "User sign in" do
 
       click_link "Login"
 
-      fill_in "E-mail", w
+      fill_in "E-mail", with: "foo@bar.com"
+      fill_in "Senha", with: "wrong"
+
+      click_button "Login"
+
