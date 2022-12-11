@@ -23,4 +23,9 @@ RSpec.feature "User sign in" do
   end
 
   context "with invalid credentials" do
-    scenario "displays error mess
+    scenario "displays error message" do
+      visit root_path
+
+      click_link "Login"
+
+      fill_in "E-mail", w
