@@ -22,4 +22,5 @@ RSpec.feature "User sign in" do
     end
   end
 
-  c
+  context "with invalid credentials" do
+    scenario "displays error mess
