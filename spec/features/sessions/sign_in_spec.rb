@@ -33,3 +33,6 @@ RSpec.feature "User sign in" do
 
       click_button "Login"
 
+      expect(page).to have_alert "Email ou senha inválidos."
+    end
+  end
