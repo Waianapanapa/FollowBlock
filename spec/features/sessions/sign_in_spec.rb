@@ -36,3 +36,4 @@ RSpec.feature "User sign in" do
       expect(page).to have_alert "Email ou senha inválidos."
     end
   end
+end
