@@ -5,4 +5,8 @@ RSpec.describe Bid, type: :model do
     it { is_expected.to belong_to(:user) }
 
     it { is_expected.to have_many(:messages) }
-    it 
+    it { is_expected.to have_many(:orders) }
+  end
+
+  describe "validations" do
+    i
