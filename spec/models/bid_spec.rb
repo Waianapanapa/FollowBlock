@@ -9,4 +9,5 @@ RSpec.describe Bid, type: :model do
   end
 
   describe "validations" do
-    i
+    it { is_expected.to validate_presence_of(:area_type) }
+    it { is_expected.to 
