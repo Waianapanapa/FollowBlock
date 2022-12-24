@@ -14,4 +14,5 @@ RSpec.describe Bid, type: :model do
     it { is_expected.to validate_presence_of(:number_of_days) }
     it { is_expected.to validate_presence_of(:payment_type) }
     it { is_expected.to validate_presence_of(:price) }
-    it { is
+    it { is_expected.to validate_presence_of(:product) }
+    it { is_expected.to validat
