@@ -17,4 +17,6 @@ RSpec.describe Bid, type: :model do
     it { is_expected.to validate_presence_of(:product) }
     it { is_expected.to validate_presence_of(:quantity) }
     it { is_expected.to validate_presence_of(:state) }
-   
+    it { is_expected.to validate_presence_of(:user) }
+
+    conte
