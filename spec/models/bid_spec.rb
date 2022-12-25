@@ -15,4 +15,6 @@ RSpec.describe Bid, type: :model do
     it { is_expected.to validate_presence_of(:payment_type) }
     it { is_expected.to validate_presence_of(:price) }
     it { is_expected.to validate_presence_of(:product) }
-    it { is_expected.to validat
+    it { is_expected.to validate_presence_of(:quantity) }
+    it { is_expected.to validate_presence_of(:state) }
+   
