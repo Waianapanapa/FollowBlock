@@ -19,4 +19,7 @@ RSpec.describe Bid, type: :model do
     it { is_expected.to validate_presence_of(:state) }
     it { is_expected.to validate_presence_of(:user) }
 
-    conte
+    context "when area_type is urban" do
+      subject { described_class.new(area_type: :urban) }
+
+   
