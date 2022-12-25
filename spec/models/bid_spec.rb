@@ -22,4 +22,5 @@ RSpec.describe Bid, type: :model do
     context "when area_type is urban" do
       subject { described_class.new(area_type: :urban) }
 
-   
+      it { is_expected.to_not validate_presence_of(:unpaved_road) }
+     
