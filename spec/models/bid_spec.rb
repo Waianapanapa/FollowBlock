@@ -26,4 +26,5 @@ RSpec.describe Bid, type: :model do
       it { is_expected.to_not validate_numericality_of(:unpaved_road) }
     end
 
-    c
+    context "when area_type is rural" do
+      subject { described_class.new(are
