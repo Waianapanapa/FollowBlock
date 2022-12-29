@@ -23,4 +23,7 @@ RSpec.describe Bid, type: :model do
       subject { described_class.new(area_type: :urban) }
 
       it { is_expected.to_not validate_presence_of(:unpaved_road) }
-     
+      it { is_expected.to_not validate_numericality_of(:unpaved_road) }
+    end
+
+    c
