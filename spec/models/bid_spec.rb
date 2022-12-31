@@ -27,4 +27,7 @@ RSpec.describe Bid, type: :model do
     end
 
     context "when area_type is rural" do
-      subject { described_class.new(are
+      subject { described_class.new(area_type: :rural) }
+
+      it { is_expected.to validate_presence_of(:unpaved_road) }
+   
