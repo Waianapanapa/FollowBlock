@@ -30,4 +30,7 @@ RSpec.describe Bid, type: :model do
       subject { described_class.new(area_type: :rural) }
 
       it { is_expected.to validate_presence_of(:unpaved_road) }
-      it { is_expected.to validate_numericality_of(:unpaved_road).only_
+      it { is_expected.to validate_numericality_of(:unpaved_road).only_integer.is_greater_than_or_equal_to(0) }
+    end
+
+    context "when pay
