@@ -40,3 +40,5 @@ RSpec.describe Bid, type: :model do
       it { is_expected.to_not validate_numericality_of(:payment_term) }
     end
 
+    context "when payment_type is forward" do
+      subject { describe
