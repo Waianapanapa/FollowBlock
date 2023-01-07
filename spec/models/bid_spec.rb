@@ -37,4 +37,6 @@ RSpec.describe Bid, type: :model do
       subject { described_class.new(payment_type: :cash) }
 
       it { is_expected.to_not validate_presence_of(:payment_term) }
-    
+      it { is_expected.to_not validate_numericality_of(:payment_term) }
+    end
+
