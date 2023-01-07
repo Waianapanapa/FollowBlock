@@ -33,4 +33,5 @@ RSpec.describe Bid, type: :model do
       it { is_expected.to validate_numericality_of(:unpaved_road).only_integer.is_greater_than_or_equal_to(0) }
     end
 
-    context "when pay
+    context "when payment_type is cash" do
+      subject { described_class.new(payment_type: :
