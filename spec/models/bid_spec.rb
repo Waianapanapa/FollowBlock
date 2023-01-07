@@ -34,4 +34,7 @@ RSpec.describe Bid, type: :model do
     end
 
     context "when payment_type is cash" do
-      subject { described_class.new(payment_type: :
+      subject { described_class.new(payment_type: :cash) }
+
+      it { is_expected.to_not validate_presence_of(:payment_term) }
+    
