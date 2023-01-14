@@ -43,4 +43,5 @@ RSpec.describe Bid, type: :model do
     context "when payment_type is forward" do
       subject { described_class.new(payment_type: :forward) }
 
-      it { is_expected.to valid
+      it { is_expected.to validate_presence_of(:payment_term) }
+      it { is_expected.to validate_numericality_of
