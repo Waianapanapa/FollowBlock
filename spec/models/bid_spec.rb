@@ -44,4 +44,7 @@ RSpec.describe Bid, type: :model do
       subject { described_class.new(payment_type: :forward) }
 
       it { is_expected.to validate_presence_of(:payment_term) }
-      it { is_expected.to validate_numericality_of
+      it { is_expected.to validate_numericality_of(:payment_term).only_integer.is_greater_than_or_equal_to(1) }
+    end
+
+    it { i
