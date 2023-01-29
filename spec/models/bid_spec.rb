@@ -47,4 +47,6 @@ RSpec.describe Bid, type: :model do
       it { is_expected.to validate_numericality_of(:payment_term).only_integer.is_greater_than_or_equal_to(1) }
     end
 
-    it { is_expected.to validate_numericality_of(:number_of_days).only_integer.is_greater_than_or_equal
+    it { is_expected.to validate_numericality_of(:number_of_days).only_integer.is_greater_than_or_equal_to(1) }
+  end
+end
