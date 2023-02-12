@@ -1,3 +1,5 @@
 require "rails_helper"
 
-R
+RSpec.describe User do
+  describe "relationships" do
+    it { is_expected.to ha
