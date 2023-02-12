@@ -8,4 +8,6 @@ RSpec.describe Order, type: :model do
 
   describe "validations" do
     it { is_expected.to validate_presence_of(:bid) }
-    it { 
+    it { is_expected.to validate_presence_of(:status) }
+  end
+end
