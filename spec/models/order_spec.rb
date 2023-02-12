@@ -6,4 +6,6 @@ RSpec.describe Order, type: :model do
     it { is_expected.to belong_to(:user) }
   end
 
-  describe "validations"
+  describe "validations" do
+    it { is_expected.to validate_presence_of(:bid) }
+    it { 
