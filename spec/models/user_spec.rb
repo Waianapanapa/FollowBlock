@@ -7,4 +7,5 @@ RSpec.describe User do
   end
 
   describe "validations" do
-    it { is_expecte
+    it { is_expected.to validate_presence_of(:email) }
+    it { is_expected.to validate_presence_of(:p
