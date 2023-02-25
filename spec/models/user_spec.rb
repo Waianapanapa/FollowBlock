@@ -13,4 +13,7 @@ RSpec.describe User do
     it { is_expected.to validate_presence_of(:phone) }
     it { is_expected.to validate_presence_of(:role) }
 
-    it { is_expected.to validate_confirmation_of(:passw
+    it { is_expected.to validate_confirmation_of(:password) }
+
+    context "when is a company" do
+      subject { described_class.new(personable_
