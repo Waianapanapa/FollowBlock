@@ -18,4 +18,8 @@ RSpec.describe User do
     context "when is a company" do
       subject { described_class.new(personable_type: :company) }
 
-      it { is_expected.to validate_presence_of(:co
+      it { is_expected.to validate_presence_of(:corporate_name) }
+    end
+
+    context "when is an individual" do
+      subj
