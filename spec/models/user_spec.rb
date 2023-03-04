@@ -22,4 +22,6 @@ RSpec.describe User do
     end
 
     context "when is an individual" do
-      subj
+      subject { described_class.new(personable_type: :individual) }
+
+      it { is_e
