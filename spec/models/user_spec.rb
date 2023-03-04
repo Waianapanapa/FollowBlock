@@ -24,4 +24,5 @@ RSpec.describe User do
     context "when is an individual" do
       subject { described_class.new(personable_type: :individual) }
 
-      it { is_e
+      it { is_expected.to validate_presence_of(:first_name) }
+      it { is_expected.to validate_presence_of
