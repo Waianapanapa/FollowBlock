@@ -1,1 +1,3 @@
-RSpec.configure do |c
+RSpec.configure do |config|
+  config.expect_with :rspec do |expectations|
+    expectations.incl
