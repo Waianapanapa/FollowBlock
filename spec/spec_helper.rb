@@ -5,4 +5,8 @@ RSpec.configure do |config|
   end
 
   config.mock_with :rspec do |mocks|
-    mocks.sy
+    mocks.syntax = :expect
+    mocks.verify_partial_doubles = true
+  end
+
+  config
