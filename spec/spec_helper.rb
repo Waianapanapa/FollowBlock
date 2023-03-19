@@ -12,4 +12,8 @@ RSpec.configure do |config|
   config.disable_monkey_patching!
 
   if config.files_to_run.one?
-    config.default_for
+    config.default_formatter = "doc"
+  end
+
+  config.order = :random
+end
