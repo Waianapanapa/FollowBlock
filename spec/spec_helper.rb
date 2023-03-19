@@ -9,4 +9,7 @@ RSpec.configure do |config|
     mocks.verify_partial_doubles = true
   end
 
-  config
+  config.disable_monkey_patching!
+
+  if config.files_to_run.one?
+    config.default_for
