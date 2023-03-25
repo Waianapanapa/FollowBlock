@@ -4,4 +4,6 @@ require "capybara/poltergeist"
 
 Capybara.configure do |config|
   config.always_include_port = true
-  config.default_driv
+  config.default_driver = :poltergeist
+  config.javascript_driver = :poltergeist
+end
